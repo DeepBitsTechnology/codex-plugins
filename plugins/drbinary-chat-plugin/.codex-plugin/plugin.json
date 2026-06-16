@@ -1,0 +1,43 @@
+{
+  "name": "drbinary-chat-plugin",
+  "version": "1.1.0",
+  "description": "Local cyber security assistant for PC issue detection, malware analysis, and system scanning",
+  "author": {
+    "name": "Deepbits Technology Inc.",
+    "email": "support@deepbits.com",
+    "url": "https://deepbits.com"
+  },
+  "homepage": "https://deepbits.com",
+  "license": "Apache-2.0",
+  "keywords": [
+    "security",
+    "malware-analysis",
+    "system-scan",
+    "registry",
+    "browser-hijacking",
+    "binary-analysis",
+    "cyber-security"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Dr. Binary Cyber Assistant",
+    "shortDescription": "Analyze binaries, malware, system security, and Android kernel CVEs.",
+    "longDescription": "Deepbits Dr. Binary connects Codex to a remote MCP analysis workspace and adds focused security skills for binary triage, malware investigation, Windows security checks, and Android/AOSP kernel CVE research.",
+    "developerName": "Deepbits Technology Inc.",
+    "category": "Security",
+    "capabilities": [
+      "MCP",
+      "Security Analysis",
+      "Binary Analysis",
+      "CVE Research"
+    ],
+    "websiteURL": "https://deepbits.com",
+    "defaultPrompt": [
+      "Analyze this suspicious binary.",
+      "Check my Windows system for malware.",
+      "Find Android kernel CVEs."
+    ],
+    "brandColor": "#0F766E"
+  },
+  "mcpServers": "./.mcp.json"
+}
