@@ -6,6 +6,14 @@ Dr. Binary MCP server and adds security-focused skills for binary analysis,
 Windows system investigation, browser hijack checks, registry review, network
 inspection, suspicious file scans, and Android/AOSP kernel CVE research.
 
+## Benchmark
+
+[Benchmarking DeepDiff Against BinDiff on Stripped and Cross-Compiler
+Binaries](https://drbinary.ai/blog/DeepDiffVsBinDiffBenchmark) compares our
+DeepDiff binary-diffing product with Google BinDiff across 21 stripped binary
+pairs, including cross-compiler and cross-version tests. DeepDiff is available
+through the Dr. Binary MCP server included with this plugin.
+
 ## Structure
 
 ```text
@@ -28,7 +36,8 @@ plugins/drbinary-chat-plugin/
 
 ## MCP Server
 
-The plugin uses the remote Dr. Binary MCP server:
+The plugin uses the remote Dr. Binary MCP server, which provides DeepDiff for
+comparing and matching functions across binaries:
 
 ```json
 {
